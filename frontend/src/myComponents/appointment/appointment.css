@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.appointment-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+
+h1 {
+    color: #333;
+}
+
+.appointment-rating-section {
+    margin-bottom: 30px;
+}
+
+.appointment-rating-section h2 {
+    color: #333;
+}
+
+.appointment-rating-stars {
+    font-size: 30px;
+    text-align: center;
+}
+
+.appointment-star {
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.appointment-star:hover,
+.appointment-star.active {
+    color: #FFD700;
+}
+
+.appointment-feedback-section {
+    margin-bottom: 30px;
+}
+
+.appointment-feedback-section h2 {
+    color: #333;
+}
+.how_to div{
+    height: 100% !important;
+    width: 100% !important;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.appointment-submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.appointment-submit-button:hover {
+    background-color: #0056b3;
+}
+ 
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd{
+    display: none;
+}
+.skiptranslate,.goog-te-gadget{
+    color: #f2f2f2 !important;
+}

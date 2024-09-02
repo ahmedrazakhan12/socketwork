@@ -1,0 +1,90 @@
+.category-batch {
+    padding: 0.2rem 0.5rem;
+    /* margin-bottom: 1rem; */
+    border-radius: 5rem;
+    font-size: 0.9rem;
+    color: white;
+    background-color: purple;
+}
+
+.post-date {
+
+    color: rgba(128, 128, 128, 0.644);
+    font-size: 0.9rem;
+}
+
+.post-description {
+    color: rgb(85, 85, 85);
+    font-size: 1.2rem;
+    /* text-indent: 5rem; */
+}
+
+.post-card-description {
+    color: rgba(85, 85, 85, 0.623);
+    font-size: 1.2rem;
+
+}
+
+.blog-card {
+    box-shadow: rgb(209, 209, 209) 0px 2px 4px;
+    padding-top: 0.8rem;
+    cursor: pointer;
+}
+
+
+.blog-card img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog-card img:hover {
+    scale: 1.02;
+    transition: all 0.3s;
+
+}
+
+.blog-card h5:hover {
+    color: rgb(65, 65, 65);
+    transition: all 0.3s;
+
+
+}
+
+.blog-card:hover {
+    box-shadow: rgb(187, 187, 187) 0px 2px 4px;
+}
+
+.blogs-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 1.4rem;
+}
+
+.postlist-item:hover {
+    opacity: 0.8;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.recommended-topic {
+    margin: 2px;
+    background: #9C27B0;
+    color: white;
+    border-radius: 2rem;
+    padding: 0.2rem 1rem;
+    font-size: 0.7rem;
+}
+
+.category-item {
+    transition: all 0.3s;
+    color: rgb(54, 54, 54);
+}
+
+.category-item:hover {
+    color: purple;
+    transition: all 0.3s;
+    text-decoration: underline;
+
+}

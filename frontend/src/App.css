@@ -1,0 +1,227 @@
+.schedule-container {
+    width: 100%;
+    /* min-height: 400px; */
+    display: flex;
+    flex-wrap: wrap; /* Allow boxes to wrap to the next row if they don't fit */
+    /* padding: 1rem; Add padding to avoid content touching the edges */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+.schedule-outer-container{
+    /* border: 1px solid #9e9eda; */
+    border-radius: 10px;
+
+}
+.container-shadow{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.18);
+    
+min-height: 500px;
+}
+
+.schedule-box {
+    background:#ac04fc;
+    flex: 1 1 20%; /* Flex-grow, flex-shrink, and flex-basis */
+    margin: 0.5rem; /* Add margin between boxes */
+    border-radius: 10px; /* Apply border-radius to match the container */
+    color: #fff; /* Ensure text is visible against the black background */
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: 100%;
+    -webkit-box-shadow: -4px 3px 26px 3px rgba(168,33,235,0.22);
+    -moz-box-shadow: -4px 3px 26px 3px rgba(168,33,235,0.22);
+    box-shadow: -4px 3px 26px 3px rgba(168,33,235,0.22);
+    /* justify-content: space-between; */
+    /* padding: 1rem; */
+
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.schedule-container .col-md-4 {
+    padding: 0; /* Remove padding applied by Bootstrap's grid system */
+}
+
+
+.add-slot{
+    background:#ac04fc;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px 14px;
+    height: 100%;
+}
+.add-slot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #f0f4ff; */
+    /* border: 2px dashed #9e9eda; */
+    /* border-radius: 10px; */
+    padding: 2rem;
+    margin:auto;
+    margin-top: 7%;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .add-slot-icon {
+    font-size: 3rem;
+    cursor: pointer;
+
+    color: #ac04fc;
+    margin-bottom: 1rem;
+  }
+  
+  .add-slot-text {
+    font-size: 1.5rem;
+    color: #4a4a4a;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+
+  .time-slots-heading {
+    font-size: 1.4rem; /* Adjust size as needed */
+    font-weight: 600; /* Semi-bold text for emphasis */
+    color: #4a4a4a;
+    font-weight: bold;
+    padding: 0.5rem; /* Add some padding for a better look */
+    /* border-bottom: 2px solid #4a90e2; Add a bottom border to make it stand out */
+    display: flex;
+    align-items: center;
+  }
+   
+
+  .date-container{
+    display: flex;
+    background-color: #0a0133;
+    border-radius: 10px;
+    padding-right: 20px;
+}
+.date-item {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .active-date {
+    background-color: #ac04fc;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    transform: scale(1.05); /* Slightly enlarge the item */
+  }
+  
+  .not-active-date {
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  /* Customize the entire calendar container */
+.react-calendar {
+  width: 250px !important;
+  height: auto !important;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-family: 'Arial', sans-serif;
+  position: absolute;
+  right: 43%;  
+}
+
+/* Customize navigation buttons */
+.react-calendar__navigation button {
+  color: #333;
+  min-width: 44px;
+  background: none;
+  margin-top: 8px;
+}
+
+/* Customize calendar tiles */
+.react-calendar__title {
+  height: 10px !important;
+  width: 10px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey !important;
+  font-size: 10px !important;
+}
+
+
+
+
+.react-calendar__month-view__weekdays__weekday{
+  /* color: red !important; */
+  font-weight: 500;
+  text-decoration: none;
+  pointer-events: none;
+}
+/* Active day styling */
+.react-calendar__tile--active {
+  border-radius: 10px;
+  background-color: #ac04fc !important;
+  color: white !important;
+  padding: 10px;
+}
+
+/* Today's date styling */
+.react-calendar__tile--now {
+  background-color: #c34afb !important;
+  color: white !important;
+  border-radius: 10px;
+}
+
+/* Weekend day styling */
+.react-calendar__month-view__days__day--weekend {
+  color: grey !important;
+}
+
+/* Customize navigation buttons */
+.react-calendar__navigation button {
+  color: #333;
+  min-width: 30px;  /* Smaller button size */
+  background: none;
+  margin-top: 4px;
+  font-size: 12px;  /* Smaller font size */
+  padding: 2px;
+}
+
+/* Customize calendar tiles */
+.react-calendar__tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  font-size: 12px;  /* Adjust font size */
+  height: 30px;  /* Smaller tile size */
+  width: 30px;
+  padding: 2px;
+}
+
+/* Active day styling */
+.react-calendar__tile--active {
+  border-radius: 5px;
+  background-color: #ac04fc;
+  color: white;
+  padding: 5px;
+}
+
+/* Today's date styling */
+.react-calendar__tile--now {
+  background-color: #c34afb;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Weekend day styling */
+.react-calendar__month-view__days__day--weekend {
+  color: grey;
+}
+
+.react-calendar__tile:disabled{
+  background-color: transparent !important;
+}
+

@@ -1,0 +1,238 @@
+body > iframe {
+  display: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+  /* display: none !important; */
+}
+.Y3SQ3RkJxTdewXqzzclf {
+  /* position: relative; */
+  top: -2rem;
+  height: 108vh;
+}
+
+/* .MuiModal-root.css-1q657ja-JoyModal-root{
+  z-index: 2;
+} */
+#goog-gt-tt {
+  display: none !important;
+}
+
+.MuiModal-backdrop.css-pg81nb-JoyModal-backdrop {
+  opacity: 0.1;
+}
+
+#myTimer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #9d0cf7;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+
+  padding: 1rem 2rem;
+  border-radius: 0.6rem;
+  box-shadow: 0px 3px 8px black;
+}
+#myChat {
+  position: fixed;
+  bottom: 0;
+  right: 0; /* Changed from 'left' to 'right' */
+  background: white;
+  /* font-size: 2rem; */
+  color: rgb(255, 255, 255);
+  margin: 15px;
+  font-weight: 600;
+
+  padding: 8px;
+  border-radius: 50%;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.453);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Added transition for smooth effect */
+  z-index: 10000; /* Ensures #myChat is above other elements like modals */
+
+}
+
+.chatIcon{
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  /* transform: scale(0.9); */
+}
+
+#myChat:hover {
+  transform: scale(1.05); /* Slightly increase the size on hover */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.384); /* Increase shadow for a more pronounced effect */
+}
+
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+}
+
+.content {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 9999px;
+  background-color: #edf2f7;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.line {
+  width: 100%;
+  height: 0.575rem;
+  border-radius: 0.25rem;
+  background-color: #edf2f7;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.dots {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.dot {
+  width: 2rem;
+  height: 1.2rem;
+  border-radius: 9999px;
+  background-color: #edf2f7;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.icons {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+body > .skiptranslate {
+  display: none;
+}
+
+.icons svg {
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.5;
+}
+
+.actions {
+  flex-shrink: 0;
+}
+
+.goog-te-gadget .goog-te-combo {
+  height: 18px;
+}
+
+/* .header-main {
+  background: rgba(222, 222, 222, 0.39);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: -14px;
+  width: 100%;
+  height: 5rem;
+  z-index: 34;
+
+} */
+
+.shadow {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  height: 0.2rem;
+}
+
+/* .VIpgJd-ZVi9od-l4eHX-hSRGPd{
+  display: none !important;
+} */
+
+.button {
+  width: 3.8rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+  background-color: #edf2f7;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
+  display: none !important;
+}
+
+.VIpgJd-yAWNEb-VIpgJd-fmcmS-sn54Q {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* .MuiModal-root{
+  display: none !important;
+} */
+
+/* .MuiModal-root.css-79ws1d-MuiModal-root{
+  display: none !important;
+} */
+
+.MuiTypography-root.MuiTypography-body1.css-vkc4v8-MuiTypography-root {
+  /* display: none !important; */
+  /* background: red; */
+}
+
+.testimonial-section {
+  height: 31rem;
+}
+
+.testimonial-cards {
+  height: 20rem;
+}
+
+@media (max-width: 730px) {
+  .testimonial-section {
+    /* Styles for mobile */
+    height: 80rem;
+  }
+  /* .testimonial-gridd {
+    gap: 1rem;
+  } */
+}
+
+.clear-filters-btn:hover {
+  opacity: 0.8;
+}
